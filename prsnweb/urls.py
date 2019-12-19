@@ -14,5 +14,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('portfolio/', include('portfolio.urls')),
-    path('download_resume', views.dwnload_file)
+    path('download_resume', views.dwnload_file),
+    path('contact', views.contact),
+    path('about', views.about)
 ]
