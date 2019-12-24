@@ -17,4 +17,4 @@ urlpatterns = [
     path('download_resume', views.dwnload_file),
     path('contact', views.contact),
     path('about', views.about)
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

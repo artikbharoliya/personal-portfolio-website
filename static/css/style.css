@@ -1,4 +1,213 @@
 {% load static}
+.bottom_icons{
+  font-size: 25px;
+  color: #337ab7;
+
+}
+
+
+.content {
+    width: 278px;
+    margin: 14px;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    
+}
+
+.usercol {
+
+    width: 300px;
+}
+
+#skill {
+    list-style: none;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+#skill li {
+    margin-bottom: 53px;
+    background: #f5f5f5;
+    height: 17px;
+    border-radius: 9px;
+    border-left: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#skill li em {
+    position: relative;
+    top: -30px;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.expand {
+    height: 10px;
+    margin: 2px 0;
+    background: #337ab7;
+    position: absolute;
+    border-radius: 17px;
+
+    box-shadow: 0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.Python {
+    width: 92%;
+    -moz-animation: Python 2s ease-out;
+    -webkit-animation: Python 2s ease-out;
+}
+
+.Django {
+    width: 85%;
+    -moz-animation: Django 2s ease-out;
+    -webkit-animation: Django 2s ease-out;
+}
+
+.HTML {
+    width: 92%;
+    -moz-animation: HTML 2s ease-out;
+    -webkit-animation: HTML 2s ease-out;
+}
+
+.CSS {
+    width: 70%;
+    -moz-animation: CSS 2s ease-out;
+    -webkit-animation: CSS 2s ease-out;
+}
+
+.SQL {
+    width: 50%;
+    -moz-animation: SQL 2s ease-out;
+    -webkit-animation: SQl 2s ease-out;
+}
+.Photoshop{
+  width: 60%;
+    -moz-animation: Photoshop 2s ease-out;
+    -webkit-animation: Photoshop 2s ease-out;
+}
+
+@-moz-keyframes Python {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 92%;
+    };
+}
+
+@-moz-keyframes Django {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width:85%;
+    };
+}
+
+@-moz-keyframes HTML {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 92%;
+    };
+}
+
+@-moz-keyframes CSS {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes SQL {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+@-moz-keyframes Photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
+
+
+@-webkit-keyframes Python {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 92%;
+    };
+}
+
+@-webkit-keyframes Django {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 85%;
+    };
+}
+
+@-webkit-keyframes HTML {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 92%;
+    };
+}
+
+@-webkit-keyframes CSS {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-webkit-keyframes SQL {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+@-webkit-keyframes Photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
 
 .artik{
 
@@ -679,7 +888,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
